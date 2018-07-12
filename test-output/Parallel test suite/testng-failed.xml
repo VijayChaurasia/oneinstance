@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Parallel test suite]" parallel="methods">
+  <test thread-count="2" name="test 1(failed)" parallel="methods">
+    <classes>
+      <class name="com.qait.automation.parallelone.NewTest">
+        <methods>
+          <include name="testvalidlogin"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.qait.automation.parallelone.NewTest -->
+    </classes>
+  </test> <!-- test 1(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
